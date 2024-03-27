@@ -16,7 +16,7 @@ body {
 }
 
 body {
-    font-family: "Clear Sans", sans-serif;
+    font-family: "Barlow", sans-serif;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased !important;
 }
@@ -753,7 +753,7 @@ ul.top-info li p.info-text {
 
 .header-one,
 .header-one .site-navigation {
-    background: #23282d;
+    background: #000000;
 }
 
 .header-one .navbar-collapse {
@@ -778,7 +778,7 @@ ul.top-info li p.info-text {
 }
 
 .header-one .logo-area {
-    padding: 30px 0;
+    padding: 10px 0;
 }
 
 .navbar-fixed {
@@ -855,7 +855,7 @@ ul.top-info-box {
 
 @media (max-width: 767px) {
     ul.top-info-box {
-        display: flex;
+        display: none;
         justify-content: center;
         flex-wrap: wrap;
         align-items: center;
@@ -1349,6 +1349,8 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
     background: var(--primary-color);
     color: #fff;
     display: inline-block;
+    font-weight: 500;
+    letter-spacing: 1px;
     padding: 0 15px;
     margin: 0 0 10px;
 }
@@ -1379,7 +1381,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
     line-height: 58px;
     margin: 20px 0;
     color: #fff;
-    font-weight: 900;
+    font-weight: 600;
     text-transform: uppercase;
     letter-spacing: -1px;
 }
