@@ -604,7 +604,7 @@ a[href^="tel"] {
 }
 
 .btn-dark {
-    background: #23282d;
+    background: #121212;
 }
 
 .btn-primary:hover,
@@ -1257,7 +1257,7 @@ ul.navbar-nav > li > a {
     right: -4px;
     font-size: 32px;
     cursor: pointer;
-    background: #23282d;
+    background: #121212;
     padding: 5px;
 }
 
